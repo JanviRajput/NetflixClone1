@@ -1,0 +1,63 @@
+/* Default styles for larger screens */
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Main content styles */
+  .main {
+    padding: 20px;
+  }
+  
+  /* Container styles */
+  .container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Text and image styles */
+  .text {
+    width: 50%;
+  }
+  
+  .image {
+    width: 50%;
+  }
+  
+  /* Questions section styles */
+  .questions {
+    padding: 20px;
+  }
+  
+  /* Media queries for responsiveness */
+  @media only screen and (max-width: 768px) {
+    /* Adjustments for tablets */
+    .container1 {
+      flex-direction: column;
+    }
+    .text, .image {
+      width: 100%;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    /* Adjustments for mobile devices */
+    .navbar {
+      flex-direction: column;
+      text-align: center;
+    }
+    .logo {
+      margin-bottom: 20px;
+    }
+    .buttons {
+      margin-top: 20px;
+    }
+    /* Other adjustments for smaller screens */
+  }
+  
