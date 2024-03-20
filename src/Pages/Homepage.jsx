@@ -51,6 +51,7 @@ Sign up
 
   <div className='image'>
     <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png"/>
+    <video style={{position:"absolute",marginBottom:"20px",height:"25vh",width:"18%"}} autoPlay loop playsInline muted src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v"></video>
   </div>
 </div>
 <hr></hr>
@@ -82,6 +83,7 @@ Sign up
 
   <div className='image'>
     <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile-in.png"/>
+    {/* <video style={{position:"absolute",marginBottom:"10px",height:"20vh",marginRight:"7px", marginTop:"2px"}} autoPlay loop playsInline muted src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v"></video> */}
   </div>
 </div>
 
